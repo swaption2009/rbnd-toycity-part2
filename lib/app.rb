@@ -119,6 +119,7 @@ end
 def start
   setup_files
   create_report
+  write_report_to_file
 end
 
 def setup_files
@@ -143,6 +144,18 @@ end
 def print_brand_report
   print_brand_report_header
   print_brand_report_data
+end
+
+def write_report_to_file
+  f = File.open('../data/report.txt', 'w')
+  old_out = $stdout
+  $stdout = f
+
+  create_report
+
+  f.close
+  $stdout = old_out
+  puts "Report has been sent to report.txt"
 end
 
 start

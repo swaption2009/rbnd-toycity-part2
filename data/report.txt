@@ -1,0 +1,52 @@
+               .__                                                        __    
+  ___________  |  |   ____   ______  _______   ____ ______  ____________/  |_  
+ /  ___/\__  \ |  | _/ __ \ /  ___/  \_  __ \_/ __ \____ \ /  _ \_  __ \   __\ 
+ \___\   /  __\|  |_\  ___/ \___ \    |  | \/\  ___/|  |_>>  <_> )  | \/|  |   
+/____  >(____  /____/\___  >____  >   |__|    \___  >   __/\____/|__|   |__|   
+     \/      \/          \/     \/                \/|__|                        
+
+Printed on 06/16/2016
+                     _            _       
+                    | |          | |      
+ _ __  _ __ ___   __| |_   _  ___| |_ ___ 
+| '_ \| '__/ _ \ / _` | | | |/ __| __/ __|
+| |_) | | | (_) | (_| | |_| | (__| |_\__ \
+| .__/|_|  \___/ \__,_|\__,_|\___|\__|___/
+| |                                       
+|_|                                       
+
+Product name: LEGO Iron Man vs. Ultron
+Retail price: $22.99
+Total number of purchases: 2
+Total amount of sales: $36.98
+Average price is $18.49
+_________________________________________________________________
+Product name: Nano Block Empire State Building
+Retail price: $49.99
+Total number of purchases: 2
+Total amount of sales: $68.98
+Average price is $34.49
+_________________________________________________________________
+Product name: LEGO Firehouse Headquarters
+Retail price: $199.99
+Total number of purchases: 2
+Total amount of sales: $379.98
+Average price is $189.99
+_________________________________________________________________
+ _                         _     
+| |                       | |    
+| |__  _ __ __ _ _ __   __| |___ 
+| '_ \| '__/ _` | '_ \ / _` / __|
+| |_) | | | (_| | | | | (_| \__ \
+|_.__/|_|  \__,_|_| |_|\__,_|___/
+
+There are 2 brands. They are: ["LEGO", "Nano Blocks"]
+_________________________________________________________________
+LEGO has 55 quantities in stock
+The average price for LEGO brand is: $111.49
+The store has sold LEGO brand for a total of: $416.96
+_________________________________________________________________
+Nano Blocks has 12 quantities in stock
+The average price for Nano Blocks brand is: $49.99
+The store has sold Nano Blocks brand for a total of: $68.98
+_________________________________________________________________
