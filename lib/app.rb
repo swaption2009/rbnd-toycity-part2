@@ -12,14 +12,19 @@ def setup_files
   $report_file = File.new("report.txt", "w+")
 end
 
+def average_price(sales, quantities)
+  sales / quantities.count
+end
+
+
 # Print "Sales Report" in ascii art
 def print_sales_report
   puts "               .__                                                        __    "
-  puts "  ___________  |  |   ____   ______  _______   ____ ______   ____________/  |_  "
-  puts " /  ___/\__  \ |  | _/ __ \ /  ___/  \_  __ \_/ __ \\____ \ /  _ \_  __ \   __\ "
-  puts " \___ \  / __ \|  |_\  ___/ \___ \    |  | \/\  ___/|  |_> >  <_> )  | \/|  |   "
-  puts "/____  >(____  /____/\___  >____  >   |__|    \___  >   __/ \____/|__|   |__|   "
-  puts "     \/      \/          \/     \/                \/|__|                        "
+  puts "  ___________  |  |   ____   ______  _______   ____ ______  ____________/  |_  "
+  puts " /  ___/\\__  \\ |  | _/ __ \\ /  ___/  \\_  __ \\_/ __ \\____ \\ /  _ \\_  __ \\   __\\ "
+  puts " \\___\\   /  __\\|  |_\\  ___/ \\___ \\    |  | \\/\\  ___/|  |_>>  <_> )  | \\/|  |   "
+  puts "/____  >(____  /____/\\___  >____  >   |__|    \\___  >   __/\\____/|__|   |__|   "
+  puts "     \\/      \\/          \\/     \\/                \\/|__|                        "
   puts
 end
 
@@ -75,12 +80,11 @@ def print_product_report_data
   puts "Total amount of sales: $" + total_sales.to_s
 
   # Calculate and print the average price the toy sold for
-  average_price = total_sales/product["purchases"].count
-  puts "Average price: $" + average_price.to_s
+  puts "Average price is $" + average_price(total_sales, product["purchases"]).to_s
 
   # Calculate and print the average discount (% or $) based off the average sales price
-  average_discount = ( product["full-price"].to_f - average_price ) / product["full-price"].to_f * 100
-  puts "Average discount: " + average_discount.round(2).to_s + "%"
+  # average_discount = ( product["full-price"].to_f - average_price ) / product["full-price"].to_f * 100
+  # puts "Average discount: " + average_discount.round(2).to_s + "%"
 
   #add line divider
   50.times { print "_" }
