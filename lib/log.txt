@@ -1,0 +1,44 @@
+commit 5af01c2bc815b41f3bee575ae7461b7a421b2ee5
+Author: swaption2009 <swaption2009@gmail.com>
+Date:   Thu Jun 16 16:13:16 2016 -0700
+
+    add method to write report to txt file
+
+commit f4609d03dba1afc258cc69b1de4f376b75399312
+Author: swaption2009 <swaption2009@gmail.com>
+Date:   Thu Jun 16 16:01:33 2016 -0700
+
+    refactor prepare_brand_data method
+
+commit 57aee29b9c53528155e96d12a0f6f90a4c7ca49c
+Author: swaption2009 <swaption2009@gmail.com>
+Date:   Thu Jun 16 14:40:27 2016 -0700
+
+    refactor methods grouping
+    
+    group methods into 4 areas:
+    - formula
+    - data preparation
+    - report formatting
+    - workflow
+
+commit 887f78fcfb8598b38cd17a44bde804ed616db772
+Author: swaption2009 <swaption2009@gmail.com>
+Date:   Wed Jun 15 22:41:53 2016 -0700
+
+    refactor product average price
+    
+    - fixed sales report header
+    - create method for calculating average price
+
+commit d15b6318dca372007c65dd04b46ec46661ca2ed6
+Author: swaption2009 <swaption2009@gmail.com>
+Date:   Wed Jun 15 17:46:13 2016 -0700
+
+    print all reports
+
+commit e7a8c3bc379cb15ea13990f7e6d0ebf8760dd833
+Author: swaption2009 <swaption2009@gmail.com>
+Date:   Sat Jun 11 22:26:16 2016 -0700
+
+    initial upload

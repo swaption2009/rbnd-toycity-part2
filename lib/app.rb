@@ -147,7 +147,7 @@ def print_brand_report
 end
 
 def write_report_to_file
-  f = File.open('../data/report.txt', 'w')
+  f = File.open('../report.txt', 'w')
   old_out = $stdout
   $stdout = f
 
