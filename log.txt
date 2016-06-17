@@ -1,3 +1,18 @@
+commit da7951835c20b49f4f6fd1f080a73567ed4d7ce0
+Author: swaption2009 <swaption2009@gmail.com>
+Date:   Fri Jun 17 00:15:28 2016 -0700
+
+    add missing avg_disc method
+    
+    - add missing avg_disc method
+    - remove unnecessary report writing (line 129)
+
+commit 5eafc5809772b3f601646b559d0f3e57b8896e20
+Author: swaption2009 <swaption2009@gmail.com>
+Date:   Thu Jun 16 16:15:39 2016 -0700
+
+    submission
+
 commit 5af01c2bc815b41f3bee575ae7461b7a421b2ee5
 Author: swaption2009 <swaption2009@gmail.com>
 Date:   Thu Jun 16 16:13:16 2016 -0700
