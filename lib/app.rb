@@ -10,6 +10,10 @@ def total_sales(sales)
   sales.inject(0) { |result, element| result + element }
 end
 
+def average_discount(full_price, avg_price)
+  ( full_price - avg_price ) / full_price * 100
+end
+
 
 # DATA PREPARATION
 
@@ -23,8 +27,16 @@ def print_product_report_data
       product["purchases"].each do |price|
         sales << price["price"]
       end
-    puts "Total amount of sales: $" + total_sales(sales).to_s
-    puts "Average price is $" + average_price(total_sales(sales), product["purchases"].count).to_s
+
+    s = total_sales(sales)
+    p = product["purchases"].count
+    avg = average_price(s, p)
+    f = product["full-price"].to_f
+    avg_disc = average_discount(f, avg)
+
+    puts "Total sales: $" + s.to_s
+    puts "Average price: $" + avg.to_s
+    puts "Average discount: " + avg_disc.round(2).to_s + "%"
   line_divider
   end
 end
@@ -126,7 +138,6 @@ def setup_files
   path = File.join(File.dirname(__FILE__), '../data/products.json')
   file = File.read(path)
   $products_hash = JSON.parse(file)
-  $report_file = File.new("report.txt", "w+")
 end
 
 def create_report
